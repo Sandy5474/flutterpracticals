@@ -17,18 +17,23 @@ class MainApp extends StatelessWidget {
         ),
         body: SizedBox(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
+              Container(
+                child: Text('first row'),
+                alignment: Alignment.topLeft,
+                margin: EdgeInsets.only(left: 50, bottom: 0, right: 0, top: 10),
+              ),
               Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   SizedBox(
                     height: 50,
                     width: 50,
                   ),
                   Container(
-                    height: 100,
-                    width: 100,
+                    height: 200,
+                    width: 200,
                     color: Color.fromARGB(255, 0, 174, 255),
                   ),
                   SizedBox(
@@ -36,8 +41,8 @@ class MainApp extends StatelessWidget {
                     width: 50,
                   ),
                   Container(
-                    height: 100,
-                    width: 100,
+                    height: 200,
+                    width: 200,
                     color: const Color.fromARGB(255, 255, 0, 0),
                   ),
                   SizedBox(
@@ -45,8 +50,8 @@ class MainApp extends StatelessWidget {
                     width: 50,
                   ),
                   Container(
-                    height: 100,
-                    width: 100,
+                    height: 200,
+                    width: 200,
                     color: Color.fromARGB(255, 0, 174, 255),
                   ),
                 ],
@@ -55,16 +60,21 @@ class MainApp extends StatelessWidget {
                 height: 100,
                 width: 100,
               ),
+              Container(
+                child: Text('Second row'),
+                alignment: Alignment.topLeft,
+                margin: EdgeInsets.only(left: 50, bottom: 0, right: 0, top: 10),
+              ),
               Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   SizedBox(
                     height: 50,
                     width: 50,
                   ),
                   Container(
-                    height: 100,
-                    width: 100,
+                    height: 200,
+                    width: 200,
                     color: Color.fromARGB(255, 255, 0, 0),
                   ),
                   SizedBox(
@@ -72,8 +82,8 @@ class MainApp extends StatelessWidget {
                     width: 50,
                   ),
                   Container(
-                    height: 100,
-                    width: 100,
+                    height: 200,
+                    width: 200,
                     color: Color.fromARGB(255, 0, 174, 255),
                   ),
                   SizedBox(
@@ -81,8 +91,8 @@ class MainApp extends StatelessWidget {
                     width: 50,
                   ),
                   Container(
-                    height: 100,
-                    width: 100,
+                    height: 200,
+                    width: 200,
                     color: Color.fromARGB(255, 255, 0, 0),
                   ),
                 ],

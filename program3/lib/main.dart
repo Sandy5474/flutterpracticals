@@ -27,21 +27,13 @@ class MainApp extends StatelessWidget {
                 width: 100,
                 color: Colors.black,
               ),
-              SizedBox(
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                    )
-                  ],
-                ),
+              Container(
+                child: ElevatedButton(
+                    onPressed: () {
+                      print("button pressed");
+                    },
+                    child: Text('Button')),
               ),
-              ElevatedButton(
-                  onPressed: () {
-                    print("button pressed");
-                  },
-                  child: Text('Button'))
             ],
           ),
         ),
