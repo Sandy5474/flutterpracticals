@@ -16,11 +16,14 @@ class MainApp extends StatelessWidget {
           title: Text('My app'),
         ),
         body: SizedBox(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.center,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+              ),
+              SizedBox(
+                height: 200,
               ),
               Container(
                 height: 100,
