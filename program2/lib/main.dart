@@ -16,10 +16,10 @@ class MainApp extends StatelessWidget {
           title: Text('My app'),
         ),
         body: SizedBox(
-          child: Column(
+          child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Row(
+              Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   SizedBox(
@@ -55,7 +55,7 @@ class MainApp extends StatelessWidget {
                 height: 100,
                 width: 100,
               ),
-              Row(
+              Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   SizedBox(
